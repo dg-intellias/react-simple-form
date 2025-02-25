@@ -1,0 +1,75 @@
+.sign-up-form {
+  background-color: hsl(195, 50%, 80%);
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 0.5em;
+  padding: 1em;
+  gap: 0.8em;
+  box-shadow: 0px 5px 10px hsla(0, 100%, 0%, 0.15);
+}
+
+.sign-up-form>h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.sign-up-form>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-form>div>label {
+  color: hsl(190, 50%, 40%);
+}
+
+.sign-up-form>div>input {
+  width: min(20rem, 100%);
+  padding: 0.5em;
+  border: 1px solid hsl(190, 50%, 55%);
+  border-radius: 0.5em;
+}
+
+.sign-up-form>div>p {
+  font-size: 0.8em;
+  height: 2em;
+}
+
+.sign-up-form>button {
+  background-color: hsl(190, 40%, 65%);
+  color: hsl(0, 0%, 100%);
+  margin-top: 1.5em;
+  padding: 0.4em;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+
+  &:hover {
+    background-color: hsl(190, 50%, 55%);
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+.sign-up-form>p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.sign-up-form>p button {
+  background: none;
+  border: none;
+  font-weight: 600;
+
+  &:hover {
+    color: hsl(190, 49%, 41%);
+  }
+}
+
+.sign-up-form>div>input.input-error {
+  border: 1px solid hsl(25, 85%, 35%);
+}
+
+.error-message {
+  color: hsl(25, 85%, 35%);
+}
